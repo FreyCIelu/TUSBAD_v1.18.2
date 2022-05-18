@@ -1,0 +1,33 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:grass_block"
+        },
+        "title": [
+            {
+                "text": ""
+            },
+            {
+                "translate": "万物流転の常 -通常世界-",
+                "color": "gray",
+                "bold": true
+            }
+        ],
+        "description": {
+            "translate": "桜島は燃やすもの"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:textures/block/cyan_stained_glass.png"
+    },
+    "criteria": {
+        "enter": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "to": "area:skylands"
+            }
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherrack"
+        },
+        "title": [
+            {
+                "text": ""
+            },
+            {
+                "translate": "大焦熱の鏖殺世界 -ネザー-",
+                "color": "red",
+                "bold": true
+            }
+        ],
+        "description": {
+            "translate": "ゾンビピッグマンはもういない"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:textures/block/netherrack.png"
+    },
+    "criteria": {
+        "enter": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "to": "area:nether"
+            }
+        }
+    }
+}
