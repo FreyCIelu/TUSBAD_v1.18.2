@@ -2,3 +2,5 @@
 TUSB二次創作「TUSB_AD_v1.18.2」データパック用リポジトリ
 
 Discord:http://discord.gg/KZ4DGTW
+
+**非公式二次創作です。**
